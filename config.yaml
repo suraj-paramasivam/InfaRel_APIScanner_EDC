@@ -1,0 +1,10 @@
+#config.yaml
+
+url:
+  'www.google.com'
+yamlfile_input:
+  'C:\Suraj\Personal\Misc\Workspaces\IntelliJ\openapi-schema-extractor-util\src\main\resources\FieldTicketFlattened.yaml'
+jsonfile_output:
+  'operationalactivity.json'
+zipfile_output:
+  'operationalactivity.zip'
