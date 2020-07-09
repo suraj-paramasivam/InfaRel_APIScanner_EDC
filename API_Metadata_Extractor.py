@@ -14,13 +14,13 @@ from more_itertools import unique_everseen
 ##url = params['url']
 ##xfdpapikey=params['x-fdpapikey']
 
-url = 'https://fdp.slb.com/external/api/operationalactivities'
+url = 'Your API Method URL'
 
 payload = {}
 headers = {
     'Accept': 'application/json',
     # You will need to change the apikey with the parameter based on the API. If using a different auth mechanism, change code accordingly
-    'x-fdpapikey': 'yStXlJR6c0RTw8VfvnYRYPxbpeaTB/3ZMjc9/zRSS9Q='
+    'x-fdpapikey': 'Your API Key'
 }
 
 try:
