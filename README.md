@@ -28,9 +28,9 @@ added to the config.yaml file.
 This is the model required for the creation of custom resource in EDC
 
 <h3><b> Important Notes</b></h3>
-1. Please make sure to change the model package name if required. It is recommended to change to something that reflects the customer conventions. For example, if Informatica internally uses this, we would have com.informatica.rest.api or something similar
-2. Please make sure to change the code according to the changes made to the package name in the model, else the upload to EDC will fail
-3. Based on our customer requirements, we had a few fields were added(URL), please review and remove them if needed
-4. If you are planning to use this with a lower version of API spec, you will have to change the code accordingly.
-5. In both the scripts certificate verification is disabled, since ours was an internal API gateway. In case a certificate verification is required, you will have to change the code accordingly.
+<li> Please make sure to change the model package name if required. It is recommended to change to something that reflects the customer conventions. For example, if Informatica internally uses this, we would have com.informatica.rest.api or something similar</li>
+<li> Please make sure to change the code according to the changes made to the package name in the model, else the upload to EDC will fail</li>
+<li> Based on our customer requirements, we had a few fields were added(URL), please review and remove them if needed</li>
+<li> If you are planning to use this with a lower version of API spec, you will have to change the code accordingly.</li>
+<li> In both the scripts certificate verification is disabled, since ours was an internal API gateway. In case a certificate verification is required, you will have to change the code accordingly.</li>
 
